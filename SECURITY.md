@@ -1,4 +1,4 @@
-# Security Policy
+﻿# Security Policy
 
 ## Reporting a Vulnerability
 
@@ -21,7 +21,7 @@ This allows for private discussion and coordinated disclosure.
 Contact the maintainers directly at:
 
 <!-- TODO: Replace with your security contact email -->
-- Email: [security contact email]
+- Email: bcherry@westmonroe.com
 
 ### What to Include
 

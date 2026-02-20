@@ -32,18 +32,18 @@ repos:
       - id: check-added-large-files
 
   # Python formatting (remove if not using Python)
-  - repo: https://github.com/psf/black
-    rev: 26.1.0
-    hooks:
-      - id: black
-        args: [--line-length=100]
+  # - repo: https://github.com/psf/black
+  #   rev: 26.1.0
+  #   hooks:
+  #     - id: black
+  #       args: [--line-length=100]
 
   # Python linting (remove if not using Python)
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.14
-    hooks:
-      - id: ruff-check
-        args: [--fix, --line-length=100]
+  # - repo: https://github.com/astral-sh/ruff-pre-commit
+  #   rev: v0.14.14
+  #   hooks:
+  #     - id: ruff-check
+  #       args: [--fix, --line-length=100]
 
   # Markdown linting
   - repo: https://github.com/DavidAnson/markdownlint-cli2

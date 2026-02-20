@@ -1,9 +1,9 @@
-# CODEOWNERS file - Defines code ownership for pull request reviews
+﻿# CODEOWNERS file - Defines code ownership for pull request reviews
 #
-# TEMPLATE NOTE: Replace @OWNER with your GitHub username or team.
+# TEMPLATE NOTE: Replace @blakelishly with your GitHub username or team.
 # See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 #
-# EXPECTED WARNINGS: GitHub will show "Unknown owner" errors for @OWNER in
+# EXPECTED WARNINGS: GitHub will show "Unknown owner" errors for @blakelishly in
 # the template repository. This is expected and intentional - the placeholder
 # must be replaced after cloning. The check-placeholders.yml workflow enforces
 # this replacement.
@@ -12,11 +12,11 @@
 # requested to review pull requests.
 
 # Default owners for everything in the repo
-* @OWNER
+* @blakelishly
 
 # Workflow files require maintainer review
-.github/workflows/ @OWNER
+.github/workflows/ @blakelishly
 
 # Copilot instructions require maintainer review
-.github/copilot-instructions.md @OWNER
-.github/instructions/ @OWNER
+.github/copilot-instructions.md @blakelishly
+.github/instructions/ @blakelishly
